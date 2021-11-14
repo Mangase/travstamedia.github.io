@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+	<section class="sec1">
+		<div class="container">
+			<nav>
+			<div class="logo"><img src="images/logo.png" alt=""></div>
+			<div class="nav">
+				<i onclick="showMenu()" class="fas fa-bars"></i>
+				<ul id="navList">
+					<i onclick="hideMenu()" class="fas fa-times"></i>
+					<li><a href="">Home</a></li>
+					<li><a href="">Project</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			</nav>
+			<div class="jumbotron">
+				<img src="images/me.jpg" alt="">
+				<div class="deskripsi">
+				<span>Hello Im Mang Ase</span>
+				<h1>Visual designer</h1>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam adipisci aliquid esse, ipsa nostrum voluptatem dolorum quidem, voluptates iure optio ea at cumque repellat libero laborum facere officia quam, commodi.</p>
+				<a href="" class="btn">about me</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec2">
+		<div class="container">
+			<div class="row">
+				<div class="col-sec2">
+					<i class="fas fa-pencil-ruler"></i>
+					<h4>UI Design</h4>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+					<a>known More</a>
+					<i class="fas fa-arrow-right"></i>
+				</div>
+				<div class="col-sec2">
+					<i class="fab fa-dropbox"></i>
+					<h4>Product Design</h4>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+					<a>known More</a>
+					<i class="fas fa-arrow-right"></i>
+				</div>
+				<div class="col-sec2">
+					<i class="fas fa-band-aid"></i>
+					<h4>Branding</h4>
+					<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit.</p>
+					<a>known More</a>
+					<i class="fas fa-arrow-right"></i>
+				</div>
+			</div>
+			<div class="row kanan">
+				<div class="col2-sec2">
+					<h2>12</h2>
+					<p>years experience</p>
+				</div>
+				<div class="col2-sec2">
+					<div class="one">
+					<div class="bagi">
+						<h4>60+</h4>
+						<p>clients</p>
+					</div>
+					<div class="bagi">
+						<h4>08</h4>
+						<p>your experience</p>
+					</div>
+					</div>
+					<div class="two">
+					<div class="bagi">
+						<h4>122+</h4>
+						<p>complete projects</p>
+					</div>
+					<div class="bagi">
+						<h4>10</h4>
+						<p>achievements</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+	<!--=====sec3========  -->
+	<section class="sec3">
+		<div class="container">
+			<div class="row">
+				<div class="title">
+				<h2>featured project</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+				</div>
+				<div class="btn">
+					<a href="">view all</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col3-sec3">
+					<img src="images/image1.jpg" alt="">
+					<h5>the vintage</h5>
+					<a href="">known more</a>
+					<i class="fas fa-arrow-right"></i>
+				</div>
+				<div class="col3-sec3">
+					<img src="images/image2.jpg" alt="">
+					<h5>foodasa</h5>
+					<a href="">known more</a>
+					<i class="fas fa-arrow-right"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col3-sec3">
+					<img src="images/image3.jpg" alt="">
+					<h5>marco accent</h5>
+					<a href="">known more</a>
+					<i class="fas fa-arrow-right"></i>
+				</div>
+				<div class="col3-sec3">
+					<img src="images/image4.jpg" alt="">
+					<h5>mozaik</h5>
+					<a href="">known more</a>
+					<i class="fas fa-arrow-right"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec4">
+		<div class="container">
+			<div class="main">
+				<h2>Let's work together on
+				your next project</h2>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt animi odit tempore officia fugiat officiis.</p>
+			</div>
+			<div class="btn">
+				<a href="">contact</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- =====footer====== -->
+	<footer>
+		<div class="container">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="">Project</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+		<div class="main">
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+			<div class="medsos">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-whatsapp"></i>
+			</div>
+			<div class="develover">
+				<i class="fas fa-heart"></i>
+				<p>Create by mangAse</p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		var navList = document.getElementById('navList');
+		function showMenu(){
+			navList.style.left = "-80px";
+		}
+
+		function hideMenu(){
+			navList.style.left = "-400px";
+		}
+	</script>
+	
+</body>
+</html>
